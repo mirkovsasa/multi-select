@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Linking to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Linking to JS -->
+    <script defer src="multiselect.js"></script>
+  </head>
+  <body>
+    <!-- main container with multiselect -->
+    <div class="container no-selection">
+      <!-- BUtton to expand selection options -->
+      <div class="select-btn">
+        <span class="btn-text">Select Option</span>
+        <img class="arrow-dwn" src="arrow-01.svg" />
+      </div>
+
+      <!-- Parent item with child items -->
+      <ul class="list-items">
+        <li class="item parent">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 1</div>
+        </li>
+        <!-- Child items -->
+        <ul>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 1</div>
+          </li>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 2</div>
+          </li>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 3</div>
+          </li>
+        </ul>
+        <li class="item">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 2</div>
+        </li>
+        <li class="item">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 3</div>
+        </li>
+        <li class="item">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 4</div>
+        </li>
+        <li class="item">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 5</div>
+        </li>
+        <li class="item parent">
+          <div class="checkbox">
+            <img src="check-01.svg" class="check-icon" />
+          </div>
+          <div class="item-text">OPTION 6</div>
+        </li>
+        <ul>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 1</div>
+          </li>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 2</div>
+          </li>
+          <li class="item sub-item">
+            <div class="checkbox">
+              <img src="check-01.svg" class="check-icon" />
+            </div>
+            <div class="item-text">SUB OPTION 3</div>
+          </li>
+        </ul>
+      </ul>
+    </div>
+  </body>
+</html>
